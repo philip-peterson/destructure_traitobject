@@ -6,8 +6,10 @@ authors = [
   "Jonathan Reem <jonathan.reem@gmail.com>",
   "Steven Fackler <sfackler@gmail.com>",
   "Alexander Regueiro <alexreg@me.com>",
-  "Philip Peterson <philip.c.peterson@gmail.com>"
+  "Philip Peterson <philip.c.peterson@gmail.com>",
+  "Francis Lalonde <fralalonde@gmail.com>",
 ]
+edition = "2021"
 repository = "https://github.com/philip-peterson/destructure_traitobject.git"
 description = "Unsafe helpers for working with raw trait objects. (Forked from traitobject)"
 readme = "README.md"
