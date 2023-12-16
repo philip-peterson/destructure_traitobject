@@ -26,6 +26,12 @@ fn test_simple() {
     unsafe { assert!(&7 == std::mem::transmute::<_, &i32>(data(x))) };
 }
 
+#[test]
+fn test_mut() {
+    let x = &mut 7 as &mut dyn Send;
+    unsafe { assert!(&mut 7 == std::mem::transmute::<_, &i32>(data_mut(x))) };
+}
+
 /// A trait implemented for all trait objects.
 ///
 /// Implementations for all traits in std are provided.
